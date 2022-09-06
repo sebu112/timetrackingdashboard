@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time tracking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Position">
+        <div class="Jermu">
+            <img class="kuva" src="images/image-jeremy.png" alt="">
+
+            <p class="Report">Report for</p>
+            <h1 class="Nimi">Jeremy <br> Robson</h1>
+            <div class="Jermunsisalla">
+                <button onclick="daily()">Daily</button>
+                <br>
+                <button onclick="weekly()">Weekly</button>
+                <br>
+                <button onclick="monthly()">Monthly</button>
+            </div>
+        </div>
+        <div class="ylärivi">
+            <div class="eka">
+                <div class="top1">
+                    <img src="images/icon-work.svg" alt="">
+                </div>
+                <h1>Work</h1>
+                <h2 id="työ">32hrs</h2>
+                <h3 id="työ1">Last week - 36hrs</h3>
+            </div>
+            <div class="toka">
+                <div class="top2">
+                    <img src="images/icon-play.svg" alt="">
+                </div>
+                <h1>Play</h1>
+                <h2 id="pelaaminen">10hrs</h2>
+                <h3 id="pelaaminen1">Last week - 8hrs</h3>
+            </div>
+            <div class="kolmas">
+                <div class="top3">
+                    <img src="images/icon-study.svg" alt="">
+                </div>
+                <h1>Study</h1>
+                <h2 id="opiskelu">4hrs</h2>
+                <h3 id="opiskelu1">Last week - 7hrs</h3>
+            </div>
+        </div>
+        <div class="alarivi">
+            <div class="neljäs">
+                <div class="top4">
+                    <img src="images/icon-exercise.svg" alt="">
+                </div>
+                <h1>Exercise</h1>
+                <h2 id="urheilu">4hrs</h2>
+                <h3 id="urheilu1">Last week - 5hrs</h3>
+            </div>
+            <div class="viides">
+                <div class="top5">
+                    <img src="images/icon-social.svg" alt="">
+                </div>
+                <h1>Social</h1>
+                <h2 id="some">5hrs</h2>
+                <h3 id="some1">Last week - 10hrs</h3>
+            </div>
+            <div class="kuudes">
+                <div class="top6">
+                    <img src="images/icon-self-care.svg" alt="">
+                </div>
+                <h1>Self Care</h1>
+                <h2 id="huolto">2hrs</h2>
+                <h3 id="huolto1">Last week - 2hrs</h3>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
